@@ -1,0 +1,119 @@
+* {
+    background-color:rgba(34, 34, 34, 0);
+    font-family: Roboto Mono;
+    font-size: 18px;
+    margin: 0;
+}
+
+p {
+    margin: 30px;
+}
+
+a{
+    font-weight: 500;
+    text-decoration: underline;
+    color:black;
+}
+.name {
+    font-weight: bold;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.header-links {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+
+}
+
+.header-links a{
+    display:inline-block;
+    margin-right: 15px;
+    transition: opacity 0.3s ease, transform 0.7s ease;
+    transform: scale(1.1);
+}
+
+.header-links a:hover {
+    opacity: 0.4;
+    transform: scale(1.2);
+}
+
+.container {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.secondary-section {
+    text-align:left;
+    background-color:white;
+    max-width: 800px;
+
+}
+
+.projects-heading, .about-me-heading{
+    text-decoration: underline;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight:500px;
+    /* background-color:lightblue; */
+}
+
+
+/*START------ all project links */
+.project-links {
+    padding-left: 100px;
+}
+.project-links li{
+    padding-left: 20px;
+}
+.project-links a {
+    display: inline-block;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+.project-links a:hover {
+    opacity: 0.4;
+    transform: scale(1.05);
+}
+/*END----- all project links */
+
+
+.skills-heading {
+    font-size: 24px;
+    font-weight:500px;
+    text-decoration: underline;
+    margin-bottom: 30px;
+    
+}
+
+.skills-section {
+    margin-left: 20px;
+}
+
+.ending-section-content{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    border: solid;
+    justify-content: space-evenly;
+    border-radius: 10px;
+    margin: 0;
+    padding: 0;
+    max-width:90%;
+    gap: 0;
+}
+.ending-section-content p {
+    border: solid;
+    border-radius: 10px;
+    margin: 15px  10px;
+    padding: 0px; /* Add some internal padding */
+    flex: 1 1 30%; /* Set a fixed percentage-based width */
+    max-width: calc(20%);
+    text-align: center; 
+    box-sizing: border-box; 
+}
