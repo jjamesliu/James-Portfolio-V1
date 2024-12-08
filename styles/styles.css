@@ -82,17 +82,26 @@ a{
 }
 /*END----- all project links */
 
+.projects-heading {
+    margin-top: 45px;
+}
+
+
 
 .skills-heading {
     font-size: 24px;
     font-weight:500px;
     text-decoration: underline;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     
 }
 
 .skills-section {
     margin-left: 20px;
+}
+
+.ending-section {
+    margin-top: 60px;
 }
 
 .ending-section-content{
@@ -116,4 +125,12 @@ a{
     max-width: calc(20%);
     text-align: center; 
     box-sizing: border-box; 
+
+}
+
+.ending-section-content p:hover {
+    opacity: 0.4;
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+
 }
